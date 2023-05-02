@@ -3,4 +3,4 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /app
 COPY r.txt /app/r.txt
 COPY . /app
-RUN pip install -r r.txt
+RUN pip3 install -r r.txt
